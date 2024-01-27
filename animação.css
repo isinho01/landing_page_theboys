@@ -1,0 +1,17 @@
+.logo-theboys , .logo{
+    animation: aparece-e-foca 8s ease infinite alternate;
+}
+@keyframes aparece-e-foca {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+
+    80% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
